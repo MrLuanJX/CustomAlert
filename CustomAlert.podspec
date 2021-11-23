@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MrLuanJX/CustomAlert.git", :tag => "#{s.version}"}
   s.source_files  = "CustomAlert/LJXCustomAlert/**/*.{h,m}"
 
- # spec.dependency "Masonry", "~> 1.1.0"
+  s.dependency "Masonry", "~> 1.1.0"
 
 end
